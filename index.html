@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remembering Shyamal Kumar Majumdar</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: #fdfcf9;
+            color: #2b2b2b;
+            line-height: 1.7;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            background: radial-gradient(circle at center, #2c2c2c, #0f1720);
+        }
+
+        .hero img {
+            position: absolute;
+            max-height: 90%;
+            max-width: 90%;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            z-index: 1;
+            filter: grayscale(40%) contrast(105%) brightness(75%);
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 60%;
+            height: 60%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent);
+            z-index: 0;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(0, 0, 0, 0.65),
+                    rgba(0, 0, 0, 0.4));
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            color: #fff;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.2rem;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #f1f1f1;
+        }
+
+        /* SECTION */
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            border-left: 4px solid #c9a96e;
+            padding-left: 12px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            border: 1px solid #eee;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 1.3rem;
+            text-align: center;
+            margin: 40px 0;
+            color: #444;
+        }
+
+        footer {
+            background: #1f2933;
+            color: #eaeaea;
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <!-- IMPORTANT: make sure this path is correct -->
+        <img src="images/Shyamal_Majumdar.png" alt="Shyamal Kumar Majumdar">
+
+        <div class="hero-content">
+            <h1>Remembering<br>Mr. Shyamal Kumar Majumdar</h1>
+            <p>A beloved Headmaster, mentor, and visionary whose legacy lives on forever.</p>
+        </div>
+    </div>
+
+    <!-- INTRO -->
+    <section>
+        <p class="quote">
+            “A life dedicated to education, growth, and shaping futures — his presence may be gone, but his impact
+            remains forever.”
+        </p>
+
+        <div class="card">
+            <p>
+                Late Mr. Shyamal Kumar Majumdar was more than an educator — he was a visionary who transformed lives
+                through education.
+                Deeply respected and loved by students and colleagues, he built not just an institution, but a
+                foundation for dreams.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTRIBUTIONS -->
+    <section>
+        <h2>His Lifelong Contributions</h2>
+
+        <div class="card">
+            <p>Transformed a broken infrastructure into a Higher Secondary School at Hariharpara, Berhampore,
+                Murshidabad.</p>
+        </div>
+
+        <div class="card">
+            <p><strong>Choa B. B. Pal Vidyaniketan</strong> grew into a respected institution under his leadership.</p>
+        </div>
+
+        <div class="card">
+            <p>Developed school land into a fruit garden (bagan), allowing students to enjoy fruits free of cost.</p>
+        </div>
+
+        <div class="card">
+            <p>Established a vocational training institute to develop practical skills among students.</p>
+        </div>
+
+        <div class="card">
+            <p>Built a 500-capacity auditorium and a sports field to encourage holistic development.</p>
+        </div>
+
+        <div class="card">
+            <p>Mentored a girls’ Kho-Kho team that competed at the state level, empowering young students.</p>
+        </div>
+    </section>
+
+    <!-- VISION -->
+    <section>
+        <h2>His Vision & Legacy</h2>
+
+        <div class="card">
+            <p>
+                His focus was not just education, but mindset development — teaching students how to think, grow, and
+                succeed in life.
+            </p>
+            <p>
+                His legacy continues through every student he inspired, every life he touched, and every dream he helped
+                build.
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>In Loving Memory of Mr. Shyamal Kumar Majumdar</p>
+        <p>Forever Respected • Forever Remembered</p>
+    </footer>
+
+</body>
+
+</html>
